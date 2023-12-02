@@ -34,10 +34,17 @@ public class CalcTest {
     @DisplayName("Test delenie nulou.")
     public void testDelenieNulou() {
         Exception expect = Assertions.assertThrows(ArithmeticException.class,
-                ()-> Calc.deleni(12, 0));
+                () -> Calc.deleni(12, 0));
         Assertions.assertEquals("/ by zero", expect.getMessage());
 
     }
 
+    @Test
+    @DisplayName("Test nasobenie dvoch cisel.")
+    public void nasobeni() {
+        int actual = Calc.nasobeni(2, 3);
+        int expected = 6;
 
+        Assertions.assertEquals(expected, actual);
+    }
 }
