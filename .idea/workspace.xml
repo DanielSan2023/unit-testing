@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b32c154d-3c8e-4799-a9ae-69182e067c3e" name="Changes" comment="added Testing methods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/engeto/data/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/engeto/data/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/engeto/calculation/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/engeto/calculation/Calc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/engeto/calculation/CalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/engeto/calculation/CalcTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +21,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="97436e1752d68634351598d4102e9b8e3bfe1b1e" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,81 +46,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.engeto.data" />
       <recent name="com.engeto.calculation" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalcTest">
-    <configuration name="CalcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in unit-testing">
+    <configuration name="All in unit-testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.engeto.calculation.*" />
+          <option name="PATTERN" value="com.engeto.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.engeto.calculation" />
-      <option name="MAIN_CLASS_NAME" value="com.engeto.calculation.CalcTest" />
+      <option name="PACKAGE_NAME" value="com.engeto.data" />
+      <option name="MAIN_CLASS_NAME" value="com.engeto.data.PersonTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcTest.rozdil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.engeto.calculation.*" />
+          <option name="PATTERN" value="com.engeto.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.engeto.calculation" />
-      <option name="MAIN_CLASS_NAME" value="com.engeto.calculation.CalcTest" />
-      <option name="METHOD_NAME" value="rozdil" />
+      <option name="PACKAGE_NAME" value="com.engeto.data" />
+      <option name="MAIN_CLASS_NAME" value="com.engeto.data.PersonTest" />
+      <option name="METHOD_NAME" value="getName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcTest.testDelenieNulou" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonTest.setSurenameNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.engeto.calculation.*" />
+          <option name="PATTERN" value="com.engeto.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.engeto.calculation" />
-      <option name="MAIN_CLASS_NAME" value="com.engeto.calculation.CalcTest" />
-      <option name="METHOD_NAME" value="testDelenieNulou" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalcTest.testScitani" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.engeto.calculation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.engeto.calculation" />
-      <option name="MAIN_CLASS_NAME" value="com.engeto.calculation.CalcTest" />
-      <option name="METHOD_NAME" value="testScitani" />
+      <option name="PACKAGE_NAME" value="com.engeto.data" />
+      <option name="MAIN_CLASS_NAME" value="com.engeto.data.PersonTest" />
+      <option name="METHOD_NAME" value="setSurenameNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalcTest" />
+        <item itemvalue="JUnit.All in unit-testing" />
+        <item itemvalue="JUnit.PersonTest" />
+        <item itemvalue="JUnit.PersonTest.setSurenameNull" />
+        <item itemvalue="JUnit.PersonTest.getName" />
         <item itemvalue="JUnit.com.engeto.calculation in unit-testing" />
-        <item itemvalue="JUnit.CalcTest.testDelenieNulou" />
-        <item itemvalue="JUnit.CalcTest.rozdil" />
-        <item itemvalue="JUnit.CalcTest.testScitani" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +194,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="added Testing methods" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/unit_testing$All_in_unit_testing.ic" NAME="All in unit-testing Coverage Results" MODIFIED="1701542554535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/unit_testing$FindMatchingTest.ic" NAME="FindMatchingTest Coverage Results" MODIFIED="1701537141604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.engeto.calculation.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/unit_testing$CalcTest.ic" NAME="CalcTest Coverage Results" MODIFIED="1701533694601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.engeto.calculation.*</FILTER>
     </SUITE>
