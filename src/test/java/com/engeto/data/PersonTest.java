@@ -43,21 +43,30 @@ class PersonTest {
         String actual = person.getSurename();
         String expected = "Dickens";
         Assertions.assertEquals(expected, actual);
-            }
+    }
 
     @Test
     @DisplayName("Test if person1 = null")
     void setSurenameNull() {
         Person person1 = new Person();
-       String expected =  person1.getSurename();
+        String expected = person1.getSurename();
         Assertions.assertNull(expected);
     }
 
     @Test
     void getAge() {
+        int actual = person.getAge();
+        int expected = 39;
+
+        Assertions.assertEquals(expected, actual);
+
     }
 
     @Test
     void setAge() {
+        person.setAge(35);
+        int expected = 35;
+        int actual = person.getAge();
+        Assertions.assertEquals(expected, actual);
     }
 }
